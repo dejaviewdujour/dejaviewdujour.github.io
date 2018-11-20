@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+  }
+
+header {
+    padding-top: 60px;
+}
+
+nav {
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 25px;
+    padding-right: 75px;
+    white-space: nowrap;
+    color: white;
+}
+
+footer {
+    padding-bottom: 50px;
+    padding-right: 50px;
+    text-align: right;
+}
+
+img {
+    background: orange;
+    max-height: 250px;
+    max-width: 250px;
+}
+
+#center {
+    height: 200px;
+    width: 50%;
+    margin-bottom:-1em;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: Arial;
+}
+
+#main {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 150px;
+    display: flex;
+}
+
+#aside {
+    background-color: orange;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.text {
+    font-family: "Arial Black"
+}
+
+
+    /* unvisited link */
+    a:link {
+        color: orange;
+    }
+    
+    /* visited link */
+    a:visited {
+        color: brown;
+    }
+    
+    /* mouse over link */
+    a:hover {
+        color: wheat;
+    }
+    
+    /* selected link */
+    a:active {
+        color: blue;
+    }
